@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import trabajos from "../data/trabajos.json"
 
 const { Data } = trabajos
@@ -71,7 +70,7 @@ export const Trabajos = () => {
                                                 <a href={Titulo.author.url} className="relative z-10 text-cyan-200 underline" target="_blank" rel="noreferrer">
                                                     Ver web
                                                 </a>
-                                            
+
                                         )}
                                     </div>
                                 </div>
