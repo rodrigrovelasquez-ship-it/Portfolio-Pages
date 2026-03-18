@@ -1,0 +1,58 @@
+{
+    "Data": [
+        {
+            "id": 1,
+            "title": " Milca Barber Studio",
+            "href": "#",
+            "description": "Esta es mi primera pagina web , hecha con HTML 5 y CSS. Es un proyecto para un amigo, trato de mejorarlo cada ves.",
+            "date": "Enero 2026",
+            "datetime": "2026-01",
+            "category": {
+                "title": "HTML 5 ",
+                "href": "#"
+            },
+            "author": {
+                "name": "Pagina web",
+                "role": "",
+                "href": "#",
+                "url": "https://milca-barber-studio.vercel.app"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Porfolio con React",
+            "href": "#",
+            "description": "Proyecto porfolio realizado como primera tarea con react, objetivo es aplicar lo aprendido.",
+            "date": "Marzo 2026",
+            "datetime": "2026-03",
+            "category": {
+                "title": "React",
+                "href": "#"
+            },
+            "author": {
+                "name": "Porfolio Personal",
+                "role": "",
+                "href": "#",
+                "url": "https://vercel.com/rodrigrovelasquez-ship-its-projects/porfolio-con-react-6m2j"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Redes para un canal",
+            "href": "#",
+            "description": "Esto lo realice con HTML 5 para un amigo donde pueda poner sus redes sociales y promocionarlo.",
+            "date": "Enero 2026",
+            "datetime": "2026-01",
+            "category": {
+                "title": "Canal",
+                "href": "#"
+            },
+            "author": {
+                "name": "Publicidad para canal",
+                "role": "",
+                "href": "#",
+                "url": "https://canal-ten.vercel.app"   
+            }
+        }
+    ]
+}
