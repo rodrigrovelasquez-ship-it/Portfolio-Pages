@@ -21,6 +21,7 @@ export default function Home() {
         <div className="mt-12 rounded-2xl border-0 bg-slate-950/70 p-6">
           <h3 className="text-2xl font-semibold text-white">Biografia</h3>
           <div className="mt-6 space-y-4">
+            {/* Items es el json de home , que le puse el nombre de items */}
             {items.map((item) => (
               <article key={item.id} className="rounded-xl border border-white/10 bg-slate-900/70 p-4">
                 <p className="text-lg font-semibold text-cyan-200">{item.nombre}</p>

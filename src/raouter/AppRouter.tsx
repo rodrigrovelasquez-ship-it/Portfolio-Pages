@@ -4,7 +4,7 @@ import { MainLayouts } from '../layouts/MainLayouts'
 import Home from '../pages/Home'
 import { Trabajos } from '../pages/Trabajos'
 import { Contacto } from '../pages/Contacto'
-
+import Servicios from './../pages/servicios/Servicios'
 
 
         // Archivo de rutas // 
@@ -19,6 +19,7 @@ export const AppRouter = () => {
                     <Route path='/' element={<Home />} />
                     <Route path='/trabajos' element={<Trabajos />} />
                     <Route path='/contacto' element={<Contacto />} />
+                    <Route path='/servicios' element={<Servicios />} />
                 </Route>
             </Routes>
         </BrowserRouter>

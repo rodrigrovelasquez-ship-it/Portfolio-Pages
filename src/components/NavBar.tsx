@@ -15,6 +15,8 @@ export const NavBar = () => {
             <NavLink to="/" className={linkClass}>Home</NavLink>
             {/* Link lleva al listado de trabajos */}
             <NavLink to="/trabajos" className={linkClass}>Trabajos</NavLink>
+            {/* Link lleva a la pagina de servicios */}
+            <NavLink to="/servicios" className={linkClass}>Servicios</NavLink>
             {/* Link lleva a la pagina de contacto */}
             <NavLink to="/contacto" className={linkClass}>Contacto</NavLink>
         </nav>

@@ -24,7 +24,7 @@ export const Trabajos = () => {
                     </div>
                     {/* Grid responsive de tarjetas de proyectos. */}
                     <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-6 border-t border-white/10 pt-10 sm:mt-12 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
-                        {/* Primera carta */}
+                        {/* Titulo - data es como llamamos al json de trabajos */}
                         {Data.map((Titulo) => (
                             <article key={Titulo.id}
                                 className="group flex max-w-xl flex-col justify-between rounded-2xl border border-white/10 bg-slate-950/70 p-6 transition-all duration-200 hover:-translate-y-1 hover:border-cyan-300/40 hover:shadow-xl hover:shadow-cyan-500/10">
